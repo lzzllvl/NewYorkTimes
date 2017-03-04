@@ -55,7 +55,7 @@ var placeArticles = (response) => {
       .appendTo(articleDiv);
     // ==========date
     var date = res.docs[i].pub_date;
-    $("<p>").text(formatDate(date))
+    $("<p>").text("Publication Date: " + formatDate(date))
       .appendTo(articleDiv);
     // ===========url
     var url = res.docs[i].web_url;

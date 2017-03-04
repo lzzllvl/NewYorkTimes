@@ -31,6 +31,16 @@ input {
 
 .newarticles {
 	background-color: ghostwhite;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: lightgray;
+	margin: 5px auto;
+
+}
+
+p , a {
+	padding-left: 5px;
 }
 
 .newH1 {
@@ -42,6 +52,7 @@ input {
 	line-height: 26.4px;
 	background-color: lightgrey;
 	padding: 4px;
+	margin-top: 0;
 }
 
 #searchBtn {
@@ -50,5 +61,7 @@ input {
 
 a {
 	color: darkgray;
-	text-decoration-style: wavy;
+}
+a:hover {
+	text-decoration: none;
 }

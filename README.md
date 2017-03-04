@@ -1,2 +1,2 @@
 # NYTassignment
-week6 group assignment
+reworked version of the week6 group assignment

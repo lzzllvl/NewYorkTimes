@@ -70,7 +70,7 @@ var placeArticles = (response) => {
 
 var readyFunc = () => {
   $("#clearBtn").click(reset);
-  $("#searchBtn").click(()=>{
+  $("#searchBtn").click(function(){
     // event.preventDefault();
 
     // this is the only one we must explicitly set before ajax call,
@@ -95,7 +95,7 @@ var readyFunc = () => {
     }
     queryURLBase += $.param(queryObj);
     $.ajax({url: queryURLBase, method:"GET"})
-    .done((response) => {
+    .done(function(response){
       //remove old results and add the new ones
       $("#articles").empty();
       placeArticles(response);

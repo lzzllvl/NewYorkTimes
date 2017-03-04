@@ -4,7 +4,7 @@
 	text-align: center;
 	background-image: url("../images/newspapersLarge.png");
 	background-repeat:repeat-x;
-	color: cornsilk;
+	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
 }
@@ -20,7 +20,7 @@ input {
 	padding-left: 10px;
 	font-size: 25px;
 	background-image: url("../images/newspapersBG.png");
-	color: cornsilk;
+	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
